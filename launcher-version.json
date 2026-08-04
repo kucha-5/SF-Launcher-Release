@@ -1,0 +1,20 @@
+{
+  "latestVersion": "49.19.4",
+  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/launcher-49.19.4/SF_Launcher_49.19.4.exe",
+  "sha256": "e137f6f054ee415d194b01330b54e7441e7f46c3ed5975bdb7331eac2c0763c9",
+  "mandatory": false,
+  "updateLogZh": [
+    "修复首次启动与游戏目录初始化失败",
+    "新增原子安装与失败自动回滚，避免半成品目录",
+    "修复 GitHub HTTP 状态错误、重定向与临时网络故障下载",
+    "新增超时、三次重试、ZIP/EXE 签名与 SHA-256 校验",
+    "内置 Project Zero 49.19.3 完整游戏"
+  ],
+  "updateLogEn": [
+    "Fixed first-launch and game-directory initialization failures",
+    "Added atomic installation and rollback on failure",
+    "Fixed GitHub HTTP status, redirect, and transient download failures",
+    "Added timeouts, three retries, file signatures, and SHA-256 verification",
+    "Bundled the complete Project Zero 49.19.3 game"
+  ]
+}
