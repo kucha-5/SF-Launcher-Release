@@ -1,20 +1,18 @@
 {
-  "latestVersion": "49.19.5",
-  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/launcher-49.19.5/SF_Launcher_49.19.5_Setup.exe",
-  "sha256": "138f89d92bffffae23a7642019ab7243de4c24fadc41ae9dd0b924f706e027e8",
+  "latestVersion": "49.19.7",
+  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/launcher-49.19.7/SF_Launcher_49.19.7_x64.zip",
+  "sha256": "ad4f26c4179739bf41de29942876baefd8f6c7856f00f5b5d454168f530d1dc1",
   "mandatory": false,
   "updateLogZh": [
-    "修复 49.19.4 EXE 无法打开的问题",
-    "恢复原版兼容运行环境并改为正常安装模式",
-    "游戏窗口与快捷方式使用 Project Zero 图标（图1）",
-    "启动器安装包、窗口与快捷方式使用 Launcher 图标（图2）",
-    "修复安装版启动器自更新流程"
+    "修复版本检查失败弹窗",
+    "GitHub不可用时自动回退到内置版本信息",
+    "保留JSON、JS备用清单和网络重试",
+    "游戏启动和现有存档行为保持不变"
   ],
   "updateLogEn": [
-    "Fixed the 49.19.4 executable launch failure",
-    "Restored the compatible runtime and standard installer flow",
-    "Applied the Project Zero icon to the game window and shortcut",
-    "Applied the Launcher icon to the setup, window, and shortcuts",
-    "Fixed self-update handling for installer releases"
+    "Fixed update-check failure messages",
+    "Added bundled version fallback when GitHub is unavailable",
+    "Kept JSON/JS fallback and network retries",
+    "Preserved game launch and save behavior"
   ]
 }
