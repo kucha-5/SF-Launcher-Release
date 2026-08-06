@@ -1,18 +1,18 @@
 {
-  "latestVersion": "49.19.8",
-  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/launcher-49.19.8/SF_Launcher_49.19.8_x64.zip",
-  "sha256": "ad4f26c4179739bf41de29942876baefd8f6c7856f00f5b5d454168f530d1dc1",
+  "latestVersion": "49.19.9",
+  "version": "49.19.9",
+  "build": "2026080523-github-authoritative-build-update",
+  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/v49.19.9/SF_Launcher_49.19.9_Setup.exe",
+  "sha256": "71bc220b0a31e4ca3b405e6f93a0d31615c9b422b85873db91dbdf78411c2300",
   "mandatory": false,
   "updateLogZh": [
-    "修复版本检查失败弹窗",
-    "GitHub不可用时自动回退到内置版本信息",
-    "保留JSON、JS备用清单和网络重试",
-    "游戏启动和现有存档行为保持不变"
+    "启动器统一升级至 49.19.9",
+    "支持 GitHub 同版本新 build 与更高版本检测",
+    "在线更新后始终启动 GitHub 对应游戏版本"
   ],
   "updateLogEn": [
-    "Fixed update-check failure messages",
-    "Added bundled version fallback when GitHub is unavailable",
-    "Kept JSON/JS fallback and network retries",
-    "Preserved game launch and save behavior"
+    "SF Launcher updated to 49.19.9.",
+    "Detects same-version new builds and higher GitHub versions.",
+    "Always starts the matching GitHub-installed game after an update."
   ]
 }
