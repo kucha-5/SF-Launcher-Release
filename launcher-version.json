@@ -1,18 +1,18 @@
 {
   "latestVersion": "49.19.9",
   "version": "49.19.9",
-  "build": "2026080523-github-authoritative-build-update",
-  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/v49.19.9/SF_Launcher_49.19.9_Setup.exe",
-  "sha256": "71bc220b0a31e4ca3b405e6f93a0d31615c9b422b85873db91dbdf78411c2300",
+  "build": "2026080813-first-test-complete-ost",
+  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/v49.19.9/SF_Launcher_49.19.9.exe",
+  "sha256": "0784d3998e1297aabb809bc45451f2eb5f25353f68b3b327bf2279235674af33",
   "mandatory": false,
   "updateLogZh": [
-    "启动器统一升级至 49.19.9",
-    "支持 GitHub 同版本新 build 与更高版本检测",
-    "在线更新后始终启动 GitHub 对应游戏版本"
+    "SF Launcher 正式单文件版更新至 49.19.9",
+    "修复旧构建的 NSIS 完整性错误与 Windows 无法运行问题",
+    "支持远程游戏更新、同版本新 build 检测、下载校验和安装回退"
   ],
   "updateLogEn": [
-    "SF Launcher updated to 49.19.9.",
-    "Detects same-version new builds and higher GitHub versions.",
-    "Always starts the matching GitHub-installed game after an update."
+    "SF Launcher official single-file build updated to 49.19.9.",
+    "Fixes the previous NSIS integrity and Windows launch failures.",
+    "Supports remote game updates, same-version build detection, download verification and installation rollback."
   ]
 }
