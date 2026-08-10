@@ -1,18 +1,18 @@
 {
   "latestVersion": "49.19.9",
   "version": "49.19.9",
-  "build": "2026080813-first-test-complete-ost",
-  "downloadUrl": "https://github.com/kucha-5/Project-Zero-releases/releases/download/v49.19.9/SF_Launcher_49.19.9.exe",
-  "sha256": "0784d3998e1297aabb809bc45451f2eb5f25353f68b3b327bf2279235674af33",
+  "build": "2026080901",
+  "publishedAt": "2026-08-09T21:30:00-07:00",
   "mandatory": false,
+  "downloadUrl": "https://github.com/kucha-5/Project-Zero-Release/releases/download/49.19.9/SF_Launcher_49.19.9_Setup.exe",
   "updateLogZh": [
-    "SF Launcher 正式单文件版更新至 49.19.9",
-    "修复旧构建的 NSIS 完整性错误与 Windows 无法运行问题",
-    "支持远程游戏更新、同版本新 build 检测、下载校验和安装回退"
+    "修复 GitHub 远程更新清单连接",
+    "当前已安装的 49.19.9 稳定启动器无需重复更新",
+    "网络不可用时仍可启动已安装游戏"
   ],
   "updateLogEn": [
-    "SF Launcher official single-file build updated to 49.19.9.",
-    "Fixes the previous NSIS integrity and Windows launch failures.",
-    "Supports remote game updates, same-version build detection, download verification and installation rollback."
+    "Fixed the GitHub remote update manifest connection.",
+    "The installed stable 49.19.9 launcher does not require a duplicate update.",
+    "The installed game remains playable when the network is unavailable."
   ]
 }
