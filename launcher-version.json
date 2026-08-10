@@ -4,15 +4,17 @@
   "build": "2026080901",
   "publishedAt": "2026-08-09T21:30:00-07:00",
   "mandatory": false,
-  "downloadUrl": "https://github.com/kucha-5/Project-Zero-Release/releases/download/49.19.9/SF_Launcher_49.19.9_Setup.exe",
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/48.19.9/SF_Launcher_49.19.9_Setup_ZLIB.exe",
   "updateLogZh": [
-    "修复 GitHub 远程更新清单连接",
-    "当前已安装的 49.19.9 稳定启动器无需重复更新",
+    "修复游戏与启动器远程更新通道连接",
+    "游戏更新由 Project-Zero-Release 提供",
+    "启动器更新由 SF-Launcher-Release 提供",
     "网络不可用时仍可启动已安装游戏"
   ],
   "updateLogEn": [
-    "Fixed the GitHub remote update manifest connection.",
-    "The installed stable 49.19.9 launcher does not require a duplicate update.",
+    "Fixed the remote update channels for the game and launcher.",
+    "Game updates are provided by Project-Zero-Release.",
+    "Launcher updates are provided by SF-Launcher-Release.",
     "The installed game remains playable when the network is unavailable."
   ]
 }
