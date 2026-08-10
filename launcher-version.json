@@ -1,10 +1,10 @@
 {
-  "latestVersion": "49.19.9",
-  "version": "49.19.9",
+  "latestVersion": "49.19.10",
+  "version": "49.19.10",
   "build": "2026080901",
   "publishedAt": "2026-08-09T21:30:00-07:00",
   "mandatory": false,
-  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/48.19.9/SF_Launcher_49.19.9_Setup_ZLIB.exe",
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/48.19.10/SF_Launcher_49.19.10_Setup_ZLIB.exe",
   "updateLogZh": [
     "修复游戏与启动器远程更新通道连接",
     "游戏更新由 Project-Zero-Release 提供",
