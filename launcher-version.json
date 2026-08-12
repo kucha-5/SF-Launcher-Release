@@ -1,20 +1,19 @@
 {
-  "latestVersion": "49.19.10",
-  "version": "49.19.10",
-  "build": "2026080901",
-  "publishedAt": "2026-08-09T21:30:00-07:00",
+  "latestVersion": "49.19.9",
+  "version": "49.19.9",
+  "build": "2026081117",
+  "publishedAt": "2026-08-11T17:00:00-07:00",
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9-build-2026081117/SF_Launcher_49.19.9_Update_2026081117.asar",
+  "sha256": "2695d65c0429e0ae45629f08d715fc0586c84fba3b38ea03288078f107ebd9dd",
   "mandatory": false,
-  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/48.19.10/SF_Launcher_49.19.10_Setup_ZLIB.exe",
   "updateLogZh": [
-    "修复游戏与启动器远程更新通道连接",
-    "游戏更新由 Project-Zero-Release 提供",
-    "启动器更新由 SF-Launcher-Release 提供",
-    "网络不可用时仍可启动已安装游戏"
+    "启动器支持直接更新 app.asar，并在失败时自动恢复旧版本",
+    "游戏更新支持小型增量包并在安装前后完整校验",
+    "修复 Release 文件不存在时错误关闭或按钮无响应"
   ],
   "updateLogEn": [
-    "Fixed the remote update channels for the game and launcher.",
-    "Game updates are provided by Project-Zero-Release.",
-    "Launcher updates are provided by SF-Launcher-Release.",
-    "The installed game remains playable when the network is unavailable."
+    "Added direct app.asar updates with automatic rollback.",
+    "Added validated incremental game updates.",
+    "Improved recovery for missing Release assets and failed downloads."
   ]
 }
