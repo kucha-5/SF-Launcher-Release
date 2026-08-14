@@ -1,19 +1,20 @@
 {
   "latestVersion": "49.19.9",
   "version": "49.19.9",
-  "build": "2026081117",
-  "publishedAt": "2026-08-11T17:00:00-07:00",
-  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9-build-2026081117/SF_Launcher_49.19.9_Update_2026081117.asar",
-  "sha256": "2695d65c0429e0ae45629f08d715fc0586c84fba3b38ea03288078f107ebd9dd",
+  "build": "2026081419-remote-runtime-repack",
+  "publishedAt": "2026-08-14T19:00:00-07:00",
   "mandatory": false,
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9/SF_Runtime_49.19.9_2026081419.asar",
+  "sha256": "69694ea280f9a68a423151141f9eddf7016f4c1f4a5b304537825384c517c9ab",
+  "size": 83263903,
   "updateLogZh": [
-    "启动器支持直接更新 app.asar，并在失败时自动恢复旧版本",
-    "游戏更新支持小型增量包并在安装前后完整校验",
-    "修复 Release 文件不存在时错误关闭或按钮无响应"
+    "重新打包启动器远程运行时更新包",
+    "支持同版本新 build 检测与 app.asar 原地更新",
+    "版本清单支持 GitHub Raw、GitHub Pages、GitHub 文件地址与 jsDelivr 多线路回退"
   ],
   "updateLogEn": [
-    "Added direct app.asar updates with automatic rollback.",
-    "Added validated incremental game updates.",
-    "Improved recovery for missing Release assets and failed downloads."
+    "Repacked the remote launcher runtime update.",
+    "Supports same-version build detection and in-place app.asar updates.",
+    "Adds GitHub Raw, GitHub Pages, GitHub file, and jsDelivr manifest fallbacks."
   ]
 }
