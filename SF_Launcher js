@@ -1,0 +1,20 @@
+window.SF_LAUNCHER_VERSION = {
+  "latestVersion": "49.19.9",
+  "version": "49.19.9",
+  "build": "2026081423-split-game-download",
+  "publishedAt": "2026-08-14T23:00:00-07:00",
+  "mandatory": false,
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9/SF_Runtime_49.19.9_SplitDownload_2026081423.asar",
+  "sha256": "e6397a38f77ea99e02404ef14667bae67c10d63ba83bdee1ff9c8e6d62738e30",
+  "size": 10784321,
+  "updateLogZh": [
+    "鍚姩鍣ㄨ繍琛屾椂缂╁皬鑷崇害10.3MB",
+    "鏀寔娓告垙鍒嗗寘涓嬭浇銆侀€愬寘鏍￠獙涓庤嚜鍔ㄥ悎骞�",
+    "淇濈暀鍗昛IP娓告垙鏇存柊鍏煎"
+  ],
+  "updateLogEn": [
+    "Reduced the launcher runtime to about 10.3 MB.",
+    "Adds multipart game downloads, per-part verification, and automatic joining.",
+    "Retains compatibility with single-ZIP game updates."
+  ]
+};
