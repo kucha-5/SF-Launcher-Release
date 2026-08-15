@@ -1,20 +1,20 @@
 {
   "latestVersion": "49.19.9",
   "version": "49.19.9",
-  "build": "2026081419-remote-runtime-repack",
-  "publishedAt": "2026-08-14T19:00:00-07:00",
+  "build": "2026081423-split-game-download",
+  "publishedAt": "2026-08-14T23:00:00-07:00",
   "mandatory": false,
-  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9/SF_Runtime_49.19.9_2026081419.asar",
-  "sha256": "69694ea280f9a68a423151141f9eddf7016f4c1f4a5b304537825384c517c9ab",
-  "size": 83263903,
+  "downloadUrl": "https://github.com/kucha-5/SF-Launcher-Release/releases/download/v49.19.9/SF_Runtime_49.19.9_SplitDownload_2026081423.asar",
+  "sha256": "e6397a38f77ea99e02404ef14667bae67c10d63ba83bdee1ff9c8e6d62738e30",
+  "size": 10784321,
   "updateLogZh": [
-    "重新打包启动器远程运行时更新包",
-    "支持同版本新 build 检测与 app.asar 原地更新",
-    "版本清单支持 GitHub Raw、GitHub Pages、GitHub 文件地址与 jsDelivr 多线路回退"
+    "启动器运行时缩小至约10.3MB",
+    "支持游戏分包下载、逐包校验与自动合并",
+    "保留单ZIP游戏更新兼容"
   ],
   "updateLogEn": [
-    "Repacked the remote launcher runtime update.",
-    "Supports same-version build detection and in-place app.asar updates.",
-    "Adds GitHub Raw, GitHub Pages, GitHub file, and jsDelivr manifest fallbacks."
+    "Reduced the launcher runtime to about 10.3 MB.",
+    "Adds multipart game downloads, per-part verification, and automatic joining.",
+    "Retains compatibility with single-ZIP game updates."
   ]
 }
